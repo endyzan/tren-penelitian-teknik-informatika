@@ -1,0 +1,10 @@
+{
+  "metode": "percentile-based threshold + arah slope + signifikansi statistik",
+  "percentile_emerging": 85,
+  "percentile_declining": 15,
+  "slope_threshold_pos": 0.000693,
+  "slope_threshold_neg": -0.00053,
+  "alpha": 0.05,
+  "min_years_present": 3,
+  "n_topik_dianalisis": 106
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-30T10:13:41.323228",
+  "n_documents": 14629,
+  "n_topics": 161,
+  "n_outliers": 4387,
+  "pct_clustered": 70.01,
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "umap_params": {
+    "n_neighbors": 15,
+    "n_components": 5,
+    "min_dist": 0.0,
+    "metric": "cosine",
+    "random_state": 42
+  },
+  "hdbscan_params": {
+    "min_cluster_size": 20,
+    "min_samples": 5,
+    "metric": "euclidean",
+    "cluster_selection_method": "eom",
+    "prediction_data": true
+  },
+  "vectorizer_ngram": [
+    1,
+    2
+  ],
+  "vectorizer_min_df": 5,
+  "vectorizer_max_df": 0.9,
+  "layer1_desc": "tanpa stemming, untuk embedding (UMAP+HDBSCAN)",
+  "layer2_desc": "dengan stemming Sastrawi, untuk c-TF-IDF"
+}
